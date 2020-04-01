@@ -5,10 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #465362;
+  background-image: url(./images/mount-hood-wallpaper-hd-1920x1080-234926.jpg);
+  backdrop-filter: grayscale(100%);
+  display: flex;
+  flex-direction: column;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content-wrapper {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }

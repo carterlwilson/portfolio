@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import TitleBar from './TitleBar';
+import Greeting from './Greeting';
+import Projects from './Projects';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
   <body>
     <TitleBar />
+    <Greeting />
+    <Projects />
   </body>
   </React.StrictMode>,
   document.getElementById('root')

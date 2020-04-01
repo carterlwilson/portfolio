@@ -4,6 +4,9 @@
     display: flex;
     background-color: #011936;
     font-family: 'Oxanium', cursive;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 75px;
 }
 
 .logo {
@@ -26,5 +29,10 @@
 
 .icons {
     display: flex;
-    justify-self: right;
+    align-items: center;
+}
+.icons img {
+    height: 25%;
+    width: auto;
+    margin-right: 30%;
 }

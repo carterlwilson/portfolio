@@ -1,0 +1,5 @@
+.projects-wrapper {
+    background-color: white;
+    scroll-snap-align: start;
+    height: 100vh;
+}
