@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import TitleBar from './TitleBar';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <body>
+    <TitleBar />
+  </body>
   </React.StrictMode>,
   document.getElementById('root')
 );

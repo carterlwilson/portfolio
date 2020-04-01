@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap');
+
+.titlebar {
+    display: flex;
+    background-color: #011936;
+    font-family: 'Oxanium', cursive;
+}
+
+.logo {
+    margin-left: 2%;
+    background-color: #465362;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 1%
+}
+
+.logo p {
+    color: white;
+    font-size: xx-large;
+}
+
+.icons {
+    display: flex;
+    justify-self: right;
+}
