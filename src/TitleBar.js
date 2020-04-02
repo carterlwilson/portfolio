@@ -1,5 +1,5 @@
 import React from 'react';
-import './TitleBar.css';
+import './styling/TitleBar.css';
 import GithubLogo from './images/GitHub-Mark-Light-64px.png'
 import LinkedinLogo from './images/linkedin-64.png'
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import GreetingPic from './images/me.JPEG'
-import './Greeting.css'
+import './styling/Greeting.css'
 
 class Greeting extends React.Component {
     render() {
