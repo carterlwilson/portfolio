@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0dfd8211a95b9a0f6bb2c23c70b5140",
+    "revision": "06d049ee62303384394f588302a62545",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "22c6e0dbec3deaebbdde",
-    "url": "/portfolio/static/css/main.f51a886f.chunk.css"
+    "revision": "c097989a35ba8d1d85e0",
+    "url": "/portfolio/static/css/main.4bafbd6a.chunk.css"
   },
   {
     "revision": "8535b58e20fe11ca7edb",
@@ -16,23 +16,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.30361a48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22c6e0dbec3deaebbdde",
-    "url": "/portfolio/static/js/main.5aa25eef.chunk.js"
+    "revision": "c097989a35ba8d1d85e0",
+    "url": "/portfolio/static/js/main.482b8925.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
     "url": "/portfolio/static/js/runtime-main.b37861ed.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/portfolio/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "76b8d4045c5e292a3d1f1b954b907b2f",
     "url": "/portfolio/static/media/me.76b8d404.JPEG"
   },
   {
-    "revision": "9bcd581d7580145d7902cf7e848043c9",
-    "url": "/portfolio/static/media/mount-hood-wallpaper-hd-1920x1080-234926.9bcd581d.jpg"
+    "revision": "356701559c7321a70c8cc955ea00e12d",
+    "url": "/portfolio/static/media/mthoodgray.35670155.png"
+  },
+  {
+    "revision": "0e7a8f1afdb21df5cd3704b205ed7798",
+    "url": "/portfolio/static/media/portfolio.0e7a8f1a.png"
   }
 ]);
