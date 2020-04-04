@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styling/index.css';
-import App from './App';
 import TitleBar from './TitleBar';
 import Greeting from './Greeting';
 import Projects from './Projects';
+import Contact from './Contact';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,6 +13,7 @@ ReactDOM.render(
     <TitleBar />
     <Greeting />
     <Projects />
+    <Contact />
   </body>
   </React.StrictMode>,
   document.getElementById('root')

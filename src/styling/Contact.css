@@ -1,0 +1,21 @@
+.contact {
+    height: 100vh;
+    background-color: #465362;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

@@ -14,7 +14,7 @@ class Projects extends React.Component {
     render() {
         const projectsList = ProjectData.map(project => <ProjectCard title={project.title} description={project.description}/>);
         return (
-            <div className="projects-wrapper">
+            <div className="projects-wrapper" id="projects">
                 <div className="project-list">
                     {projectsList}
                 </div> 

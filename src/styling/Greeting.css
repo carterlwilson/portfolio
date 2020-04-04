@@ -1,6 +1,7 @@
 .greeting-wrapper {
     height: 100vh;
-    background-image: url(../images/mount-hood-wallpaper-hd-1920x1080-234926.jpg);
+    background-image: url(../images/mthoodgray.png);
+    margin-top: 120px;
 }
 
 .greeting {
@@ -11,6 +12,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    background-color: #465362;
+    border-radius: 5%;
+    margin-left: 5%;
+    border: white 2px solid;
 }
 
 .greeting img {
