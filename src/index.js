@@ -8,17 +8,20 @@ import Contact from './Contact';
 import * as serviceWorker from './serviceWorker';
 import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic';
+import {Helmet} from 'react-helmet';
 
 ReactDOM.render(
   <React.StrictMode>
-  <AlertProvider template={AlertTemplate}>
+    <Helmet>
+      <title>Carter Wilson</title>
+      <meta charSet="utf-8"/>
+    </Helmet>
     <body>
       <TitleBar />
       <Greeting />
       <Projects />
       <Contact />
     </body>
-  </AlertProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
