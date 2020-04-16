@@ -6,15 +6,19 @@ import Greeting from './Greeting';
 import Projects from './Projects';
 import Contact from './Contact';
 import * as serviceWorker from './serviceWorker';
+import { transitions, positions, Provider as AlertProvider } from 'react-alert'
+import AlertTemplate from 'react-alert-template-basic';
 
 ReactDOM.render(
   <React.StrictMode>
-  <body>
-    <TitleBar />
-    <Greeting />
-    <Projects />
-    <Contact />
-  </body>
+  <AlertProvider template={AlertTemplate}>
+    <body>
+      <TitleBar />
+      <Greeting />
+      <Projects />
+      <Contact />
+    </body>
+  </AlertProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
