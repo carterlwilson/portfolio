@@ -12,7 +12,7 @@ class Projects extends React.Component {
     }
 
     render() {
-        const projectsList = ProjectData.map(project => <ProjectCard title={project.title} description={project.description}/>);
+        const projectsList = ProjectData.map(project => <ProjectCard title={project.title} description={project.description} githubLink={project.githubLink}/>);
         return (
             <div className="projects-wrapper" id="projects">
                 <div className="project-list">

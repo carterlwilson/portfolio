@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:wght@900&display=swap');
 
 .titlebar {
     display: flex;
     background-color: #011936;
-    font-family: 'Oxanium', cursive;
+    font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 75px;
@@ -25,12 +25,30 @@
 
 .links {
     align-self: center;
-    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.links a {
+.section-link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-link a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
     font-size: x-large;
+}
+
+.section-link a:hover {
+    color: #011936;
+}
+
+.section-link:hover{
+    background-color: white;
 }

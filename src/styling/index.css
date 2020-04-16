@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:wght@900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -6,14 +6,12 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
-  font-family: 'Oxanium', cursive;
+  /*font-family: 'Signika', sans-serif;*/
+  font-family: 'Esteban', serif;
 }
 
 code {

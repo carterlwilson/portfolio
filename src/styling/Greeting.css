@@ -12,10 +12,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: #465362;
-    border-radius: 5%;
     margin-left: 5%;
-    border: white 2px solid;
 }
 
 .greeting img {
@@ -28,4 +25,5 @@
 .greeting p {
     text-align: center;
     color: white;
+    font-size: larger;
 }

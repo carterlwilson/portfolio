@@ -14,9 +14,15 @@ class TitleBar extends React.Component {
                     <img src={ResumeLogo} alt="resume"/>
                 </div>              
                 <div className="links">
-                    <a href="#about" className="section-link">About Me</a>
-                    <a href="#projects" className="section-link">Projects</a>
-                    <a href="#contact" className="section-link">Contact Me</a>
+                    <div className="section-link">
+                        <a href="#about">About Me</a>
+                    </div>
+                    <div className='section-link'>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div className='section-link'>
+                        <a href="#contact">Contact Me</a>
+                    </div>
                 </div>
             </div>
         );
