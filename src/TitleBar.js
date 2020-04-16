@@ -9,9 +9,15 @@ class TitleBar extends React.Component {
         return (
             <div className="titlebar">
                 <div className="icons">
-                    <img src={GithubLogo} alt="github icon"/>
-                    <img src={LinkedinLogo} alt = "linkedin icon"/>
-                    <img src={ResumeLogo} alt="resume"/>
+                    <a className="icon-wrapper" href="https://github.com/carterlwilson">
+                        <img src={GithubLogo} alt="github icon"/>
+                    </a> 
+                    <a className="icon-wrapper" href="https://www.linkedin.com/in/carter-l-wilson/">
+                        <img src={LinkedinLogo} alt = "linkedin icon"/>
+                    </a> 
+                    <a className="icon-wrapper" href="https://drive.google.com/open?id=16i-w3vfA9N4UlJjpT0ScDauCXAItZHIz">
+                        <img src={ResumeLogo} alt="resume"/>
+                    </a> 
                 </div>              
                 <div className="links">
                     <div className="section-link">

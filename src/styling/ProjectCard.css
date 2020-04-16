@@ -14,3 +14,11 @@
 .project-description{
     text-align: center;
 }
+
+.github-link {
+    border-radius: 50%;
+}
+
+.github-link:hover {
+    background-color: #465362;
+}

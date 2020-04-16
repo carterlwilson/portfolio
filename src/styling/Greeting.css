@@ -1,7 +1,6 @@
 .greeting-wrapper {
     height: 100vh;
-    background-image: url(../images/mthoodgray.png);
-    margin-top: 120px;
+    background-image: url(../images/background-dark.png);
 }
 
 .greeting {
@@ -24,6 +23,8 @@
 
 .greeting p {
     text-align: center;
-    color: white;
+    color: black;
     font-size: larger;
+    background-color: white;
+    border-radius: 15px;
 }

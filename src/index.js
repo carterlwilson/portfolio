@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styling/index.css';
-import TitleBar from './TitleBar';
 import Greeting from './Greeting';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -17,7 +16,6 @@ ReactDOM.render(
       <meta charSet="utf-8"/>
     </Helmet>
     <body>
-      <TitleBar />
       <Greeting />
       <Projects />
       <Contact />
