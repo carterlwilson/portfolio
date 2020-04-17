@@ -11,20 +11,26 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    margin-left: 5%;
+    width: 100%;
+    padding-top: 100px
 }
 
 .greeting img {
-    width: 50%;
+    width: 250px;
     height: auto;
     border-radius: 50%;
-    border: white 5px solid;
+}
+
+@media screen and (max-width: 400px) {
+    .greeting img {
+        display: none; 
+    }
 }
 
 .greeting p {
     text-align: center;
-    color: black;
+    color: white;
     font-size: larger;
-    background-color: white;
     border-radius: 15px;
+    width: 30%;
 }
