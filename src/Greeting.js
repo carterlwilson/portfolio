@@ -1,5 +1,5 @@
 import React from 'react';
-import GreetingPic from './images/me.JPEG'
+import GreetingPic from './images/linkedinpic.jpg'
 import './styling/Greeting.css'
 import TitleBar from './TitleBar';
 
