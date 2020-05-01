@@ -12,11 +12,11 @@ class contact extends React.Component {
                     <form onSubmit={this.sendemail}>
                         <h2>Contact Me</h2>
                         <label for="user_name">name</label>
-                        <input type="text" name="user_name"/>
+                        <input type="text" name="user_name" required/>
                         <label for="user_email">email</label>
-                        <input type="email" name="user_email"/>
+                        <input type="email" name="user_email" required/>
                         <label for="message">message</label>
-                        <textarea name="message"/>
+                        <textarea name="message" required/>
                         <input type="submit" value="Send" id="submit-button"/>
                     </form>
                 </div>
